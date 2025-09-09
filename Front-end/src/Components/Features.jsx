@@ -15,7 +15,7 @@ const Features = () => {
 
       </div>
 
-      <div className='  w-screen grid grid-cols-4 grid-row-4 sm:grid-rows-2 sm:h-screen  gap-5 sm:gap-3 mt-5' >
+      <div className=' ml-14 w-[90vw]  grid grid-cols-4 grid-row-4 sm:grid-rows-2 sm:h-screen  gap-5 sm:gap-3 mt-5' >
 
         {/* Feature 1 */}
         <div className='bg-green-100 rounded-lg  flex items-center gap-2    col-span-4 mx-5 row-span-2                sm:col-span-2 px-5 py-2.5 sm:row-span-1 sm:mx-0    cursor-pointer hover:translate-y-[-10px] transition-all duration-500'>
@@ -29,7 +29,7 @@ const Features = () => {
 
           {/* image */}
           <div className='hidden w-1/2  sm:flex items-end  '>
-            <img src={assets.mobile} alt="" className='w-full h-1/3 relative' />
+            <img src={assets.Mobile} alt="" className='w-full h-1/3 relative' />
           </div>
         </div>
 
@@ -60,7 +60,7 @@ const Features = () => {
 
         {/* Feature 4 */}
         <div className='bg-green-100 rounded-lg  col-span-4    sm:col-span-1 mx-5 sm:mx-0 sm:row-start-2  px-5 py-2.5 flex flex-col gap-3 cursor-pointer hover:translate-y-[-10px] transition-all duration-500'>
-          <img src={assets.Confirm_icon} alt="" className='w-12' />
+          <img src={assets.confirm_icon} alt="" className='w-12' />
           <h1 className='text-xl font-medium'>Instant Confirmation</h1>
           <p>Receive instant confirmation of your booked appointments, along with timely reminders to ensure you never miss a meeting.</p>
         </div>

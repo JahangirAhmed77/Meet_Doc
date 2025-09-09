@@ -22,7 +22,7 @@ const About = () => {
       <div className='flex flex-col-reverse md:flex-row w-full  gap-8 sm:gap-4'>
 
         <div className='w-full sm:w-1/2'>
-          <img src={assets.about} alt="" className='w-full relative' />
+          <img src={assets.about_image} alt="" className='w-full relative' />
         </div>
 
         <div className='w-full sm:w-1/2 flex flex-col gap-3'>

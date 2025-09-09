@@ -3,7 +3,7 @@ import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
-import about_image from './about_image.png'
+import about_image from './about_image.svg'
 import logo from './logo.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -36,24 +36,22 @@ import General_physician from './General_physician.svg'
 import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
-import mobile from './mobile.svg'
+import Mobile from './Mobile.svg'
 import meeting from './meeting.svg'
 import meeting_icon from './meeting_icon.svg'
-import Confirm_icon from './confirm_icon.svg'
+import confirm_icon from './confirm_icon.svg'
 import record_icon from './record_icon.svg'
 import booking_icon from './booking_icon.svg'
-import cta_bg from './CTA_BG.svg'
-import about from './about_image.svg'
+import upload_area from './upload_area.png'
 
 export const assets = {
-    about,
-    cta_bg,
+    about_image,
     booking_icon,
     record_icon,
-    Confirm_icon,
+    confirm_icon,
     meeting_icon,
     meeting,
-    mobile,
+    Mobile,
     appointment_img,
     header_img,
     group_profiles,
@@ -64,13 +62,13 @@ export const assets = {
     profile_pic,
     arrow_icon,
     contact_image,
-    about_image,
     menu_icon,
     cross_icon,
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    razorpay_logo,
+    upload_area
 }
 
 export const specialityData = [ 
